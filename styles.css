@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.main-heading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(86, 86, 251);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(251, 86, 86);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.clear:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#bookList {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.book {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+}
